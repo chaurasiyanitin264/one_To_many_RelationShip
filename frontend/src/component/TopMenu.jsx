@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const TopMenu=()=>{
     return(
         <>
-           <Navbar bg="primary" data-bs-theme="dark">
+           <Navbar bg="success" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#">RelationShip</Navbar.Brand>
           <Nav className="me-auto">

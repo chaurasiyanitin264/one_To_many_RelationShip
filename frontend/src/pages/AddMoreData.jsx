@@ -22,24 +22,26 @@ const handleSubmit=()=>{
     return(
         <>
         {id}
-            <Form>
+           <center>
+           <Form className='formDesign' style={{width:"300px"}}>
      
-      <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Enter Book Title</Form.Label>
-        <Form.Control type="text" 
-        name="title" value={input.title} onChange={handleInput}/>
-      </Form.Group>
+     <Form.Group className="mb-3" controlId="formBasicPassword">
+       <Form.Label>Enter Book Title</Form.Label>
+       <Form.Control type="text" 
+       name="title" value={input.title} onChange={handleInput}/>
+     </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Enter Book Price</Form.Label>
-        <Form.Control type="text" 
-        name="price" value={input.price} onChange={handleInput}/>
-      </Form.Group>
-      <Button variant="primary" type="button"
-      onClick={handleSubmit}>
-        Submit
-      </Button>
-    </Form>
+     <Form.Group className="mb-3" controlId="formBasicPassword">
+       <Form.Label>Enter Book Price</Form.Label>
+       <Form.Control type="text" 
+       name="price" value={input.price} onChange={handleInput}/>
+     </Form.Group>
+     <Button variant="primary" type="button"
+     onClick={handleSubmit}>
+       Submit
+     </Button>
+   </Form>
+           </center>
         </>
     )
 }

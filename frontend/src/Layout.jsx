@@ -8,7 +8,9 @@ return(
     <>
       <Header/>
       <TopMenu/>
+      <hr />
       <Outlet/>
+      <hr />
       <Footer/>
     </>
 )

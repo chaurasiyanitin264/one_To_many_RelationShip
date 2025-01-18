@@ -48,9 +48,9 @@ const Display = () => {
     return (
         <>
             <h1>Display</h1>
-            <table className="displayTable">
+            <table border="2">
                 <thead >
-                    <tr>
+                    <tr >
                         <th>Author Name</th>
                         <th>Book Title</th>
                         <th>Actions</th>
