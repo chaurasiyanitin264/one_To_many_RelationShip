@@ -66,8 +66,8 @@ p {
 .formDesign{
     box-shadow: 5px 5px 10px gray;
     padding: 20px;
-    margin: 20px;
-    /* margin-left: 400px; */
+    /* margin: 20px; */
+    margin: auto;
 
 }
 /* @media (max-width: 768px){
